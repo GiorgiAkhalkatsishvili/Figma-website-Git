@@ -196,18 +196,19 @@ color: #fff;
 }
 
 .center-borders{
+  margin: auto;
   margin-top: 120px;
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-bottom: 45px;
-
+max-width: 1320px;
+width: 100%;
 }
 
 .center-borders .headers{
   display: flex;
-  justify-content: center;
-  padding-right: 68%;
+  justify-content: flex-start;
   padding-bottom: 45px;
   gap: 8px;
 }
@@ -218,21 +219,20 @@ color: #fff;
 
 .cards{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
 }
 
 .card1{
   border: solid 1px #E7E6E6;
-  height: 392px;
-  max-width: 300px;
+  min-height: 398px;
+  height: 100%;
   border-radius: 12px;
   transition: 0.5s ease;
   cursor: pointer;
 }
 
 .cards .card1 img{
-  max-width: 300px;
   width: 100%;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
@@ -286,6 +286,7 @@ top: 5px;
   max-width: 258px;
   margin: auto;
   padding-top: 14px;
+
   display: flex;
   justify-content: space-between;
 }
@@ -315,6 +316,7 @@ display: inline;
   display: flex;
   gap: 30px;
   justify-content: center;
+  max-width: 1500px;
 }
 
 .center-borders-2 .inner-card1:hover{
@@ -519,12 +521,16 @@ transition: 0.4s ease;
   padding-bottom: 20px;
 }
 
+.center-section3{
+  max-width: 1320px;
+  margin: auto;
+}
 
 .center-section3 .top-texts{
   display: flex;
-  justify-content: center;
-  gap: 65%;
+  justify-content: space-between;
   margin-top: 120px;
+  padding: 0px 15px 0px 15px;
   padding-bottom: 45px;
 }
 
@@ -538,6 +544,7 @@ transition: 0.4s ease;
   justify-content: center;
   cursor: pointer;
 }
+
 
 .display-card1 img{
   max-width: 190px;
